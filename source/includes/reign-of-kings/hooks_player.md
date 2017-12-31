@@ -92,3 +92,47 @@ void OnPlayerRelease(PlayerEscapeEvent e)
 ```
 
  * Called when a roped player gets freed from the rope.
+ 
+## OnPlayerEscape
+
+``` csharp
+void OnPlayerEscape(PlayerEscapeEvent e)
+{
+    Puts("OnPlayerEscape works!");
+}
+```
+
+ * Called when a roped player escapes.
+ 
+## OnPlayerInteract
+
+``` csharp
+void OnPlayerInteract(InteractEvent e)
+{
+    Puts("OnPlayerInteract works!");
+}
+```
+
+ * Called when a player interacts with an object, like a crafting station, loot, chests, or anything with an inventory.
+ 
+ ## OnPlayerSleep
+
+``` csharp
+void OnPlayerSleep(PlayerSleepEvent e)
+{
+    Puts("OnPlayerSleep works!");
+}
+```
+
+ * Called when a player sleeps (logout).
+ 
+## OnPlayerUnlock
+
+``` csharp
+void OnPlayerUnlock(ObjectUnlockEvent e)
+{
+    Puts("OnPlayerUnlock works!");
+}
+```
+
+ * Called when a player unlocks a door or cage with a lockpick.
